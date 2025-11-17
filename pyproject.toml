@@ -51,7 +51,7 @@ dev = [
     "pytest",
     "pytest-asyncio",
     "pytest-mock>=3.14.0",
-    "rich>=13.1.0, <14",
+    "rich>=14.2, <15",
     "mkdocs>=1.6.0",
     "mkdocs-material>=9.6.0",
     "mkdocstrings[python]>=0.28.0",
