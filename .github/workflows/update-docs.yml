@@ -35,7 +35,7 @@ jobs:
       PROD_OPENAI_API_KEY: ${{ secrets.PROD_OPENAI_API_KEY }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
         with:
           fetch-depth: 0
       - name: Setup uv
